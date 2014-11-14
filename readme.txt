@@ -1,5 +1,5 @@
 === Ultra Mouse Tail ===
-Tags: Mousetail, jQuery Mousetail, Awesome Mousetail, jQuery Mouse effect, WP Mousetail Plugin, Mouse Text, Ultra Mouse Tail, Mouse Animation, Cursor Text, wordpress cursor Text, Cursor Animation 
+Tags: Mousetail, jQuery Mousetail, Awesome Mousetail, jQuery Mouse effect, WP Mousetail Plugin, Mouse Text, Ultra Mouse Tail, Mouse Animation, Cursor Text, wordpress cursor Text, Cursor Animation, themeultra 
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 1.0
