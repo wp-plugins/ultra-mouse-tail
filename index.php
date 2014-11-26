@@ -11,10 +11,10 @@
 
 
 /* Enqueue Java Script */
-function ultra_jquery_main_js() {
+function ultra_mouse_tail_jquery_main_js() {
 	wp_enqueue_script('jquery');;
 }
-add_action('init','ultra_jquery_main_js');
+add_action('init','ultra_mouse_tail_jquery_main_js');
 
 
 /* Enqueue Java Script */
