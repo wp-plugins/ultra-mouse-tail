@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This is Awesome WordPress plugin. if you want to see some animated text always staying with mouse cursor this plugin is perfect. <br /> For full documentation of this plugin ---- <a target="blank" href="http://www.themeultra.com/downloads/ultra-mouse-tail/">Documentation</a> <br /> Plugin Demo ---> <a target="blank" href="http://demo.themeultra.com/wp-plugins/ultra-mouse-tail/">Demo</a> <br /> For Support ( Submit Ticket ) ---> <a target="blank" href="http://www.themeultra.com/support/">Live Support</a> 
+This is Awesome WordPress plugin. if you want to see some animated text always staying with mouse cursor this plugin is perfect. <br /> For full documentation of this plugin ---> <a target="blank" href="http://www.themeultra.com/downloads/ultra-mouse-tail/">Documentation</a> <br /> Plugin Demo ---> <a target="blank" href="http://www.themeultra.com/demos/ultra-mouse-tail/">Demo</a> <br /> For Support ( Submit Ticket ) ---> <a target="blank" href="http://www.themeultra.com/support/">Live Support</a> 
 
 == Installation ==
 
