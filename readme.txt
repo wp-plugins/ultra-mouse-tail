@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This Plugin will enable Real-Time Cursor Text in your WordPress Theme. 
+This is Awesome WordPress plugin. if you want to see some animated text always staying with mouse cursor this plugin is perfect. <br /> For full documentation of this plugin ---- <a target="blank" href="http://www.themeultra.com/downloads/ultra-mouse-tail/">Documentation</a> <br /> Plugin Demo ---> <a target="blank" href="http://demo.themeultra.com/wp-plugins/ultra-mouse-tail/">Demo</a> <br /> For Support ( Submit Ticket ) ---> <a target="blank" href="http://www.themeultra.com/support/">Live Support</a> 
 
 == Installation ==
 
@@ -21,6 +21,8 @@ This Plugin will enable Real-Time Cursor Text in your WordPress Theme.
 
 
 == Frequently Asked Questions ==
+ All Support Available here --->  <a target="blank" href="http://www.themeultra.com/support/">Official Support</a> 
+
 
 
 
@@ -34,3 +36,6 @@ This Plugin will enable Real-Time Cursor Text in your WordPress Theme.
 
 = 1.0 =
 * Initial Release
+
+= 1.0.1 =
+* First Update

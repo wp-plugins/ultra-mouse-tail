@@ -1,14 +1,14 @@
 <?php
 /*
 	Plugin Name: Ultra Mouse-Tail
-	Plugin URI: http://www.themeultra.com/ultra-mouse-tail-demo/
-	Description: This is a Awesome Mouse Tail Plugin. By using this Plugin You can make your website more gorgeous.
-	Author: Khurshid Alam Mojumder
-	Version: 1.0
+	Plugin URI: http://www.themeultra.com/downloads/ultra-mouse-tail/
+	Description: This is a Awesome Mouse Tail Plugin. This plugin add animated Text with mouse cursor. Plugin <a href="http://www.themeultra.com/downloads/ultra-mouse-tail/"> Documentation and Demo </a> is available here. For any kind of technical Support <a href="http://www.themeultra.com/support/"> Click Here</a>
+	Author: ThemeUltra.com
 	Author URI: http://www.themeultra.com
+	Version: 1.0.1
 */
 
-
+ 
 
 /* Enqueue Java Script */
 function ultra_mouse_tail_jquery_main_js() {
@@ -94,7 +94,7 @@ including a nonce, a unique number used to ensure the form has been submitted fr
 						<input type="text" class="" value="<?php echo stripslashes($settings['ultea_mouse_text']); ?>" id="ultea_mouse_text" name="ultra_mouse_tail_options_default[ultea_mouse_text]"/><p class="description">Please Type The text Which you want with cursor</p>
 					</td>
 			</tr>
-		
+
 	</tbody>
 
 </table>
@@ -133,6 +133,9 @@ function ultea_mouse_tail_validate_options( $input ) {
 }
 
 
+
+
+
  
 	endif;  //3. EndIf is_admin()	
 
@@ -140,24 +143,35 @@ function ultea_mouse_tail_validate_options( $input ) {
 // 8.data danamic
 		
 function ultea_mouse_tail_activator(){?>
-<?php global $ultra_mouse_tail_options_default;
+<?php
 
-$ultra_mouse_tail_settings=get_option('ultra_mouse_tail_options_default','$ultra_mouse_tail_options_default'); ?>
+	 global $ultra_mouse_tail_options_default;
 
-	<!--use this where need dynamic data-->
-	<?php // echo $ultra_mouse_tail_settings['ultea_mouse_text']; ?>
-	<script type='text/javascript'>
-		var text="<?php echo $ultra_mouse_tail_settings['ultea_mouse_text']; ?>";
-	</script>	
+	$ultra_mouse_tail_settings=get_option('ultra_mouse_tail_options_default','$ultra_mouse_tail_options_default'); ?>
+
+		<!--use this where need dynamic data-->
+		<?php // echo $ultra_mouse_tail_settings['ultea_mouse_text']; ?>
+		<script type='text/javascript'>
+			var text="<?php echo $ultra_mouse_tail_settings['ultea_mouse_text']; ?>";
+		</script>	
+			
 		
-	
-	
+		
 <?php
 }
 
 add_action('wp_footer','ultea_mouse_tail_activator');
 
 
+
+
+add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'my_plugin_action_links' );
+
+function my_plugin_action_links( $links ) {
+   $links[] = '<a href="'. esc_url( get_admin_url(null, 'options-general.php?page=mouse-tail-page') ) .'">Settings</a>';
+   $links[] = '<a href="http://www.themeultra.com/products/" target="_blank">More Item</a>';
+   return $links;
+}
 
 
 ?>
